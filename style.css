@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#1f2a37;
+}
+
+/* HEADER / HERO */
+.hero{
+    background: linear-gradient(135deg, #0056b3, #003f82);
+    color:white;
+    padding:60px 20px;
+    text-align:center;
+    border-radius:0 0 30px 30px;
+}
+
+.hero h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    opacity:.9;
+}
+
+/* BOTÓN PRINCIPAL */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#ffffff;
+    color:#0056b3;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:600;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* GRID CARDS */
+.container{
+    max-width:1100px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:20px;
+}
+
+/* CARDS */
+.card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    cursor:pointer;
+    text-align:center;
+    text-decoration:none;
+    color:inherit;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-top:10px;
+}
+
+/* FORM */
+.form-box{
+    max-width:600px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+input, select, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#0056b3;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#003f82;
+}
+
+/* CONFIRMACIÓN */
+.success{
+    text-align:center;
+    margin-top:80px;
+}
+
+.success h1{
+    color:#0056b3;
+}
